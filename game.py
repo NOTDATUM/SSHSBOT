@@ -19,13 +19,4 @@ def dice():
         return "VICTORY", 0x00ff56, str(bot1), str(bot2), str(user1), str(user2), str(a), str(b)
 
 
-def gamble():
-    print("game.py - coin")
-    coin_face = random.randrange(0, 3)
-
-    if coin_face == 0:
-        print("success")
-        return True
-    else:
-        print("failure")
-        return False
+#gamble code is private
